@@ -1,4 +1,3 @@
 {
-  "mongoURI": "mongodb+srv://ifruta:ifruta@cluster0-0mydt.gcp.mongodb.net/ifruta?retryWrites=true&w=majority",
-  "baseURL": "http://localhost:5000"
+  "mongoURI": "mongodb+srv://ifruta:ifruta@cluster0-0mydt.gcp.mongodb.net/ifruta?retryWrites=true&w=majority"
 }

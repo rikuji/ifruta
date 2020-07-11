@@ -1,9 +1,9 @@
 const express = require("express");
+const FruitController = require("./controllers/FruitController");
 
 const routes = express.Router();
 
-routes.get("/", (req, res) => {
-  return res.status(200).json({ msg: "Hello World" });
-});
+routes.get("/", FruitController.index);
+routes.post("/", FruitController.store);
 
 module.exports = routes;
